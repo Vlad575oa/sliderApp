@@ -25,30 +25,27 @@ class ViewController: UIViewController {
         redSlider.minimumTrackTintColor = .red
         greenSlider.minimumTrackTintColor = .green
         setColor()
-        setValue(for: redLabel. greenLabel,blueLabel)
+//        setValue(for: redLabel. greenLabel,blueLabel)
         
     }
     private func setColor() {
         colorView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
     }
-    @IBAction func rgbSlider( sender: UISlider) {
-        setColor()
-        switch sender {
-        case redSlider:
-        }
-    }
-    func setValue(for Labels: UILabel...) {
-        Labels.forEach { label in
-            switch label {
-            case redLabel: label.text = string(from: redSlider)
-            }
-        }
-    }
-    private func string() {
-        
-    }
-}
+//    @IBAction func rgbSlider( sender: UISlider) {
+//        setColor()
+//        switch sender {
+//        case redSlider:
+//        }
+//    }
+//    func setValue(for Labels: UILabel...) {
+//        Labels.forEach { label in
+//            switch label {
+//            case redLabel: label.text = string(from: redSlider)
+//            }
+//        }
+  
 
 // new code app
 //code3
 // bug fix
+}
